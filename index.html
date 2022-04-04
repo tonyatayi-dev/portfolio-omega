@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- NAVBAR -->
+    <nav id="menu-bar" class="navbar">
+        <div class="container">
+            <a href="#">
+                <h3>Omega</h3>
+            </a>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+            <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+            <button id="close-btn"><span class="material-icons-sharp">close</span></button>
+        </div>
+    </nav>
+    <!-- // NAVBAR -->
+
+    <!-- LANDING -->
+    <section class="landing">
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.dribble.com/" target="_blank"><i class="uil uil-dribbble"></i></a>
+                <a href="https://www.github.com/" target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+            <div class="info">
+                <h1>UI/UX Design & Fullstack Web Developer</h1>
+                <h3>Hi, I'm Susan Omega</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur iure nam placeat itaque magni
+                    error aliquam, sunt vitae, alias ex blanditiis iste consectetur omnis veniam dolorem? Tenetur,
+                    perspiciatis totam.</p>
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+            </div>
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <span class="material-icons-sharp">design_services</span>
+                    <span class="material-icons-sharp">dns</span>
+                    <span class="material-icons-sharp">code</span>
+                    <span class="material-icons-sharp">integration_instructions</span>
+                </div>
+                <div class="inner-circle">
+                    <img src="images/team_member2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // LANDING -->
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1>About</h1>
+        <div class="container">
+            <div class="image">
+                <img src="images/profile-about.jpg" alt="">
+            </div>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aut rerum, nemo nobis voluptatibus
+                    commodi. Cupiditate expedita dolor omnis, suscipit sint, amet dolores pariatur, ad iure nam cum
+                    facere illo!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic assumenda nesciunt fugiat quia
+                    fuga pariatur doloribus, laborum, reiciendis perspiciatis ut temporibus? Consequatur, tenetur!
+                    Voluptatem!</p>
+                <div class="read-more-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique corrupti libero impedit
+                        ipsam deleniti fugit adipisci atque, dicta minus quod soluta. Maxime est tenetur quisquam quae
+                        consequatur at id nulla, facilis ad fuga. Molestiae explicabo, et voluptas eos quis autem libero
+                        ducimus quas delectus est praesentium numquam impedit ab quo, tempore ut dicta consequuntur
+                        recusandae esse pariatur odio hic sapiente accusantium facere. Maiores esse velit mollitia
+                        repudiandae ex, ut at. Nesciunt, repellendus. At suscipit repellendus natus aliquam. Minus,
+                        mollitia illum? Molestias voluptatem ducimus nostrum beatae quo quos qui deserunt.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit doloribus ab libero quos
+                        eum architecto hic laboriosam repellat soluta, accusamus dicta, blanditiis esse necessitatibus.
+                        Officiis asperiores excepturi dolorem. Eum cumque repudiandae dignissimos nesciunt recusandae
+                        quaerat incidunt asperiores iusto hic?</p>
+                </div>
+                <a class="read-more">Show more</a>
+                <a href="images/cv.pdf" download class="btn btn-primary"><i class="uil uil-download-alt"></i>Download
+                    CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- // ABOUT -->
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">design_services</span>
+                        <h4>UI/UX Design</h4>
+                    </div>
+                    <div class="right">
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="item">
+                        <h5>Figma</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>92%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 1-->
+
+                    <div class="item">
+                        <h5>Adobe XD</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>88%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 2-->
+
+                    <div class="item">
+                        <h5>Adobe After Effect</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>75%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 3-->
+                </div>
+            </div>
+            <!-- END OF SKILL 1-->
+
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">design_services</span>
+                        <h4>Frontend Development</h4>
+                    </div>
+                    <div class="right">
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="item">
+                        <h5>HTML</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>92%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 1-->
+
+                    <div class="item">
+                        <h5>CSS</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>88%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 2-->
+
+                    <div class="item">
+                        <h5>Sass</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>75%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 3-->
+
+                    <div class="item">
+                        <h5>Bootstrap</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>80%</h5>
+                        </div>
+                    </div>
+                    <!-- END OF ITEM 4-->
+
+                </div>
+            </div>
+            <!-- END OF SKILL 2-->
+        </div>
+    </section>
+    <!-- // SKILLS -->
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="service">
+                <span class="material-icons-sharp">design_services</span>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque veritatis tempore
+                    cumque temporibus, qui iste non facilis vitae dolore ratione, facere possimus quidem nam odit
+                    necessitatibus minima repellat reprehenderit.</p>
+            </div>
+
+            <div class="service">
+                <span class="material-icons-sharp">web</span>
+                <h3>Websites & Web apps Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque veritatis tempore
+                    cumque temporibus, qui iste non facilis vitae dolore ratione, facere possimus quidem nam odit
+                    necessitatibus minima repellat reprehenderit.</p>
+            </div>
+
+            <div class="service">
+                <span class="material-icons-sharp">devices</span>
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque veritatis tempore
+                    cumque temporibus, qui iste non facilis vitae dolore ratione, facere possimus quidem nam odit
+                    necessitatibus minima repellat reprehenderit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- // SERVICES -->
+
+    <!-- PORTFOLIO -->
+
+    <section class="recent-work" id="portfolio">
+        <div class="container">
+            <h4>My Recent Work</h4>
+            <h1>Here Are Some Of My Most Solo Projects</h1>
+            <div class="projects">
+                <div class="project">
+                    <div class="thumbnail"><img src="images/feed-1.jpg" alt=""></div>
+                    <h2>Complete Responsive E-Commerce Website with Stripe Checkout</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam eaque non temporibus ab
+                        quod ducimus enim porro quidem ut repellat blanditiis reiciendis optio sed magnam commodi.
+                        Dolorem, fugit iure?</p>
+                    <div class="action">
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://tonyatayi.dev/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="thumbnail"><img src="images/feed-2.jpg" alt=""></div>
+                    <h2>Crypto Minning App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam eaque non temporibus ab
+                        quod ducimus enim porro quidem ut repellat blanditiis reiciendis optio sed magnam commodi.
+                        Dolorem, fugit iure?</p>
+                    <div class="action">
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://tonyatayi.dev/" target="_blank">Live</> Demo</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="thumbnail"><img src="images/feed-3.jpg" alt=""></div>
+                    <h2>Exchange & Investment Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam eaque non temporibus ab
+                        quod ducimus enim porro quidem ut repellat blanditiis reiciendis optio sed magnam commodi.
+                        Dolorem, fugit iure?</p>
+                    <div class="action">
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://tonyatayi.dev/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="thumbnail"><img src="images/feed-4.jpg" alt=""></div>
+                    <h2>Web Hosting Service Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam eaque non temporibus ab
+                        quod ducimus enim porro quidem ut repellat blanditiis reiciendis optio sed magnam commodi.
+                        Dolorem, fugit iure?</p>
+                    <div class="action">
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://tonyatayi.dev/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- // PORTFOLIO -->
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <div class="container swiper">
+            <div class="carousel swiper-wrapper">
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                            <div class="avatar">
+                                <img src="images/story-1.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>Joyce Mends</h4>
+                                <small>Civil Engineer (mends.com)</small>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure omnis natus a eos, accusamus
+                        illo eius necessitatibus animi tempora?</p>
+                </div>
+
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                            <div class="avatar">
+                                <img src="images/story-2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>Richard Barlow</h4>
+                                <small>Accountant (barlow.com)</small>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure omnis natus a eos, accusamus
+                        illo eius necessitatibus animi tempora?</p>
+                </div>
+
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                            <div class="avatar">
+                                <img src="images/profile-11.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>James Smith</h4>
+                                <small>Recruitment Agency (smith.com)</small>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure omnis natus a eos, accusamus
+                        illo eius necessitatibus animi tempora?</p>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-scrollbar">
+                <div class="swiper-scrollbar-drag"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- // TESTIMONIALS -->
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+        <div class="overlay">
+            <div class="container">
+                <h1>Let's Talk</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis beatae ratione cum, culpa
+                    unde.</p>
+                <form action="https://formspree.io/f/moqrnkqg" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- // CONTACT -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <a href="#">
+                <h3>Omega</h3>
+            </a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.dribble.com/" target="_blank"><i class="uil uil-dribbble"></i></a>
+                <a href="https://www.github.com/" target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; Omega
+        </div>
+    </footer>
+
+
+
+
+    <!-- // FOOTER -->
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
